@@ -21,13 +21,13 @@ body
   }
   
   .name {
-    background-color: #ccc;
+    background-color: #99FF99;
     padding: 10px;
   }
   
   .telo {
     max-width: 800px;
-    background-color: #ccc;
+    background-color: #99FF99;
     margin: 0 auto;
     margin-top: 0px;
     padding: 10px;
