@@ -26,8 +26,8 @@ body
   }
   
   .telo {
-    max-width: 900px;
-    background-color: #f7eded;
+    max-width: 8500px;
+    background-color: #ccc;
     margin: 0 auto;
     margin-top: 0px;
     padding: 10px;
@@ -35,20 +35,20 @@ body
   
   footer {
     background-color: #ccc;
-    height: 25px;
-    padding: 10px;
+    height: 30px;
+    padding: 15px;
     text-align: left;
   }
   
   th, td {
     padding: 5px;
-    text-align: left;
+    text-align: center;
   }
   
   th {
-      font-size: 16px;
+      font-size: 15px;
       text-align: center;
-      background-color: #cd98ed;
+      background-color: #A9A9A9;
       color: #000000;
     }
   
