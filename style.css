@@ -27,7 +27,7 @@ body
   
   .telo {
     max-width: 800px;
-    background-color: #99FF99;
+    background-color: #CCFFCC;
     margin: 0 auto;
     margin-top: 0px;
     padding: 10px;
@@ -48,7 +48,7 @@ body
   th {
       font-size: 15px;
       text-align: center;
-      background-color: #A9A9A9;
+      background-color: #CCFFFF;
       color: #000000;
     }
   
