@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styleweb4.css">
+    </head>
+
+
+    
+    <body>
+        <header class="header m-0 p-2">
+            <div class="container-fluid">
+                <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+                <img style="float:left; margin:5px; width:60px; height:60px;" src="https://laplaya-rus.ru/wp-content/uploads/9/a/3/9a34b8da9c79e56d5f560a550b0c170f.jpeg" alt="logo" />
+                <h2><div style="background-color:#ddd; padding:10px;">Квока</div></h2>
+            </div>
+        </header>
+        
+        
+        <div class="container">
+            <div class="row d-flex mx-sm-m2">
+                <div class="content d-flex flex-column p-1">
+                    <div class="menu">
+                        <nav>
+                            <ul class="nav flex-md-row flex-column ">
+                                <div class="p-2">
+                                    <span>Меню</span>
+                                </div>
+                                <div class="p-2">
+                                    <a href="#zad2">Ссылки</a>
+                                </div>
+                                <div class="p-2">
+                                    <a href="https://laplaya-rus.ru/wp-content/uploads/9/a/3/9a34b8da9c79e56d5f560a550b0c170f.jpeg">Квока</a>
+                                </div>
+                                <div class="p-2">  
+                                    <a href="#table">Таблица</a>
+                                </div>
+                                <div class="p-2">
+                                    <a href="#form">Форма</a>
+                                </div>
+                                <div class="p-2">
+                                    <a href="#footer">Подвал</a>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+
+                    <div class="form order-md-1 order-3">
+                        <div class ="vnutr">
+                            <h1 id="q1">Гиперссылки</h1>
+                            <ul>
+                                <li>
+                                    <a href="http://kubsu.ru/">Номер 1(абсолютную гиперссылку на главную страницу сайта kubsu.ru)</a>
+                                </li>
+                                <li>
+                                    <a href="https://kubsu.ru/">Номер 2(абсолютную на главную сайта kubsu.ru в протоколе https)</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://kubsu.ru/"><img src="https://static.rustore.ru/apk/1816534207/content/ICON/d289ec11-2dde-4b64-92df-88dd36f4457b.jpg" alt="image" widht="100" height="100"></a>Номер 3(ссылку-изображение)
+                                </li>
+                            
+                                <li>
+                                    <a href="/second.html">Номер 4(сокращенную ссылку на внутреннюю страницу)</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="index.html">Номер 5(сокращенную ссылку на главную страницу)</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#frag1">Номер 6(ссылку на фрагмент текущей страницы)</a>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2>Это некий текст</h2>
+                                    <h2 id="frag1">Это фрагмент 1 главной страницы</h2>
+                                </li>
+
+                                <li>
+                                    <a href="index.html?id=5&name=Vadim&Fam=Anastasin">Номер 7(ссылку с тремя параметрами в URL)</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="index.html?id=8">Номер 8(ссылку с параметром id в URL)</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/index.html">Номер 9(относительную ссылку на страницу в текущем каталоге)</a>
+                                </li>
+                                <li>
+                                    <a href="about/about.html">Номер 10(относительную на страницу в каталоге about)</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="about/about.html">Номер 11(относительную на страницу в каталоге уровнем выше текущего)</a>
+                                </li>
+
+                                <li>
+                                    <a href="about/contacts/contacts.html">Номер 12(относительную на страницу в каталоге двумя уровнями выше)</a>
+                                </li>
+                            
+                                <li>
+                                    Номер 13(контекстную в тексте абзаца)
+                                    <p>Описание нашей команды находится на <a href="about/about.html">другой странице</a></p>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.kubsu.ru/ru/abiturient#zone-slideshow">Номер 14(Ссылка на фрагмент стороннего сайта)</a>
+                                </li>
+                    
+                                <li>
+                                    <a href=""></a>Номер 15(Ссылки из областей(ствол дерева-прямоугольник, круг - буква О))
+                                    <br>
+                                    <img src="https://static.rustore.ru/apk/1816534207/content/ICON/d289ec11-2dde-4b64-92df-88dd36f4457b.jpg" widht="100" height="100" usemap="#map">
+                                    <map name="map">
+                                        <area shape="rect" coords="46,43,60,64" alt="прямоугольник" href="https://www.kubsu.ru/">
+                                        <area shape="circle" coords="24,84,3" alt="Круг" href="https://www.kubsu.ru/">
+                                    </map>
+                                </li>
+                    
+                                <li>
+                                    <a href="">Номер 16(Ссылка с пустым href)</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="arrow">Номер 17(Ссылка без href)</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.kubsu.ru/ru/abiturient"rel="nofollow">Номер 18(ссылку, по которой запрещен переход поисковикам)</a>
+                                </li>
+                            
+                                <li>
+                                    <noindex><a href="https://www.kubsu.ru/ru/abiturient">Номер 19(запрещенную для индексации поисковиками)</a></noindex>
+                                </li>
+                    
+                                <li>
+                                    Номер 20(нумерованный список ссылок с подписями title)
+                                    <ol>
+                                        <li><a href="https://www.kubsu.ru/">Title1</a></li>
+                                        <li><a href="https://www.kubsu.ru/">Title2</a></li>
+                                        <li><a href="https://www.kubsu.ru/">Title3</a></li>
+                                    </ol>
+                                </li>
+                            
+                                <li>
+                                    <a href="ftp://vadim:123@kubsu.ru/files">Номер 21(ссылку на файл на сервере FTP с авторизацией)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="order-md-2 order-2">
+                        <div class = "table">
+                            <h2 id ="table">Таблица</h2>
+                            <table id="table">
+                                <tr>
+                                    <th>Название</th>
+                                    <th>Объем памяти</th>
+                                    <th>Артикул</th>
+                                    <th>Цвет</th>
+                                    <th>Цена</th>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">Базовая версия</td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 14 Pro</td>
+                                    <td>256Gb</td>
+                                    <td>167956</td>
+                                    <td>Черный</td>
+                                    <td>105.990р</td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 14 Pro Max</td>
+                                    <td>512Gb</td>
+                                    <td>187291</td>
+                                    <td>Золотой</td>
+                                    <td>129.990р</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">New iPhone 15</td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 15 Pro</td>
+                                    <td>256Gb</td>
+                                    <td>256783</td>
+                                    <td>Золотой</td>
+                                    <td>134.990р</td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 15 Pro</td>
+                                    <td>512Gb</td>
+                                    <td>257931</td>
+                                    <td>Черный</td>
+                                    <td>149.990р</td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 15 Pro Max</td>
+                                    <td>256Gb</td>
+                                    <td>276534</td>
+                                    <td>Черный</td>
+                                    <td>146.990р</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+        
+
+                    <div class="order-md-3 order-4">
+                        <div class ="forma">
+                            <h2 id="forma">Форма</h2>
+                            <p> ФИО: </p>
+                            <textarea> текстовое поле </textarea>
+                            <p> Телефон: </p>
+                            <input type="text" name="tel" id="tel" placeholder="поле tel">
+                            <p>Поле e-mail:</p>
+                            <input type="text" name ="email"id="email" placeholder="поле e-mail">
+                            <p> Дата рождения: </p>
+                            <input type="date" name="date-picker" id="date-picker">
+                            <p> Пол: </p>
+                            <input type="radio" name="radio-group" id="radio1" value="option1">
+                            <label for="radio1">Женский</label>
+                            <input type="radio" name="radio-group" id="radio2" value="option2">
+                            <label for="radio2">Мужской</label>
+                            <p> Любимый язык программирования: </p>
+                            <select name="" multiple>
+                                <option value="Pascal">Pascal</option>
+                                <option value="C">C</option>
+                                <option value="C++">C++</option>
+                                <option value="Java">Java</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Python">Python</option>
+                                <option value="Haskel">Haskel</option>
+                                <option value="Prolog">Prolog</option>
+                                <option value="Scala">Scala</option>
+                                <option value="Clojure">Clojure</option>
+                            </select>
+                            <p> Биография: </p>
+                            <textarea name="comment" cols="35"></textarea>
+                            <p> Чекбокс: </p>
+                            <input type="checkbox" id="Checkbox">
+                            <label for="Checkbox">C контрактом ознакомлен(а)</label>
+                            <p><button  type ="submit "> Сохранить </button ></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    
+        <div id="footer">
+            <footer id="footer">(с)AnastasinVadim</footer>
+        </div>
+    </body>
+</html>
+
+
+
+
+  
