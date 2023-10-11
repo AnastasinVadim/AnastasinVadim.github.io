@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>web5</title>
+</head>
+<body>
+  <h1>Калькулятор товара</h1>
+  <label for="товар">Выберите товар из ассортимента:</label>
+  <select id="товар" onchange="chs(this.selectedIndex)">
+    <option selected>Выберите товар</option>
+    <option>Наушники AirPods 2 (LUX копия)</option>
+    <option>Наушники AirPods 3 (LUX копия)</option>
+    <option>Наушники AirPods Max (LUX копия)</option>
+    <option>Наушники Major 4</option>
+    <option>Наручные часы Hublot (LUX)</option>
+    <option>Наручные часы Hublot - механика (LUX)</option>
+    <option>Наручные часы Rolex (LUX)</option>
+    <option>Наручные часы Rolex - механика (LUX)</option>
+    <option>Наручные часы Michael Kors (LUX)</option>
+    <option>Наручные часы Audemars Piguet (LUX)</option>
+    <option>Наручные часы Audemars Piguet - механика (LUX)</option>
+    <option>Наручные часы Ulysse Nardin (LUX)</option>
+    <option>Наручные часы Ulysse Nardin - механика (LUX)</option>
+    <option>Наручные часы Casio Vintage (LUX)</option>
+    <option>Наручные часы Casio Vintage (Original)</option>
+    <option>Наручные часы Casio G-Shock (LUX)</option>
+    <option>Наручные часы Коробка Casio (LUX)
+    </option>
+  </select>
+  <br/>
+  
+  <br/>
+  <label for="kol">Укажите количество:</label>
+  <input type="number" id="kol">
+  <button id="schet">Показать сумму к оплате</button>
+  <div id="rezult"></div>
+  <script src="script.js"></script>
+</body>
+</html>
