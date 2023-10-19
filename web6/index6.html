@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zad6</title>
+</head>
+<body>
+    <h1>Авто Мойка</h1>
+    <h2>Калькулятор стоимости услуг</h2>
+        <label for="kol-vo">Введите количество машин для записи на автомойку:</label>
+        <input type="n" id="kol-vo" value="1"><br/><br/><br/>
+        <label for="usl">Выберите тип услуги:</label><br/>
+        <input type="radio" name="usl" value="us1" onchange="calc()"> 1. Мойка салона<br/>
+        <input type="radio" name="usl" value="us2" onchange="calc()"> 2. Обычная мойка кузова<br/>
+        <input type="radio" name="usl" value="us3" onchange="calc()"> 3. Трёхфазная мойка кузова<br/><br/><br/>
+        <div id="options" style="display: none;">
+            <label for="option">Выберите опцию товара:</label><br/>
+            <select id="option" onchange="calc()">
+                <option value="op1">Ничего</option>
+                <option value="op2">Чернение колес</option>
+                <option value="op3">Мойка салон + багажник</option>
+                <option value="op4">Нанести на кузов жидкое стекло</option>
+            </select><br/><br/>
+        </div>
+        <div id="SV">
+            <label for="SV">Выберите свойство товара:</label><br/>
+            <input type="checkbox" id="wCB" name="wCB" onchange="calc()">Нанести на кузов кварцевый слой (От пыли, антидождь, блеск)<br/><br/><br/>
+        </div>
+    <div id="rezult"></div>
+    <script src="script6.js"></script>
+</body>
+</html>
