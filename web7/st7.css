@@ -1,0 +1,50 @@
+body
+{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:560px) 
+{
+    .slider
+    {
+        text-align: center;
+        top: 20vh;
+        height: 70vh;
+        width: 80vw;
+        
+    }
+    img
+    {
+        margin: 0 auto;
+        padding: 0 auto;
+        height: calc(70vw*0.7);
+        width: 70vw;
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (min-width:560px)
+{
+    .slider{
+        text-align: center;
+        top: 20vh;
+        height: 30vh;
+        width: 80vw;
+        max-width: 960px;
+    }
+    img{
+        margin: 0 auto;
+        padding: 0 auto;
+        height: calc(30vw*0.7);
+        width: 30vw;
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+.pages {
+    text-align: center;
+    margin-top: 310px;
+  }
