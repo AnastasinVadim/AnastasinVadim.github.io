@@ -72,7 +72,7 @@ $(document).ready(function () {
                 message: localStorage.getItem("soob"),
                 name: localStorage.getItem("name")
             },
-            form: 'tRCmEDwCz'
+            form: '5CZFRCThC'
         }).then(function () {
             alert("Ваше сообщение успешно отправлено!");
         }).catch(function () {
